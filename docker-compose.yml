@@ -3,7 +3,7 @@ version: '2'
 services:
   mp-demo:
     build:
-      context: ./target
-      dockerfile: ./target/Dockerfile
+      context: ./
+      dockerfile: Dockerfile-compose
     ports:
       - "8080:8080"
