@@ -14,6 +14,6 @@ public class DockerController {
 
     @RequestMapping("/")
     public String url(){
-        return "hello world";
+        return "hello jenkins";
     }
 }
