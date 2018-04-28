@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  mp-demo:
+    image: "compose-jenkins"
+    build:
+      context: ./
+      dockerfile: Dockerfile-compose
+    ports:
+      - "8080:8081"
