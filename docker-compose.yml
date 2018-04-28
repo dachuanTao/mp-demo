@@ -1,10 +1,10 @@
-version: '2'
-
-services:
-  mp-demo:
-    image: "jenkins:beta"
-    build:
-      context: ./
-      dockerfile: Dockerfile-compose
-    ports:
-      - "8080:8080"
+#version: '2'
+#
+#services:
+#  mp-demo:
+#    image: "jenkins:beta"
+#    build:
+#      context: ./
+#      dockerfile: Dockerfile-compose
+#    ports:
+#      - "8080:8080"
