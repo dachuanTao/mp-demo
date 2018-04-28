@@ -2,6 +2,7 @@ version: '2'
 
 services:
   mp-demo:
+    image: "jenkins:beta"
     build:
       context: ./
       dockerfile: Dockerfile-compose
