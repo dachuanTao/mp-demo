@@ -15,7 +15,7 @@ public class DockerController {
     @RequestMapping("/")
     public String url(){
         String fozu =
-                "                   _ooOoo_"+"\n"+
+                        "                   _ooOoo_"+"\n"+
                         "                  o8888888o"+"\n"+
                         "                  88\" . \"88"+"\n"+
                         "                  (| -_- |)"+"\n"+
@@ -35,6 +35,9 @@ public class DockerController {
                         "                   `=---='"+"\n"+
                         "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+"\n"+
                         "                 佛祖保佑       永无BUG";
+        System.out.println(fozu);
         return fozu;
     }
+
+
 }
